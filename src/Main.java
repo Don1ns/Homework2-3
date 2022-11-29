@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //Задача 6.
+        System.out.println("Задача 6");
         var firstBoxerWeight = 78.2;
         var secondBoxerWeight = 82.7;
         var boxersWeight = firstBoxerWeight + secondBoxerWeight;
@@ -8,11 +9,13 @@ public class Main {
         var differenceWeight = secondBoxerWeight - firstBoxerWeight;
         System.out.println("Разница в весе " + differenceWeight);
         //Задача 7.
+        System.out.println("Задача 7");
         var differenceWeightFirstWay = secondBoxerWeight - firstBoxerWeight;
         System.out.println("(1 способ) Разница в весе " + differenceWeightFirstWay);
         var differenceWeightSecondWay = secondBoxerWeight % firstBoxerWeight;
         System.out.println("(2 способ) Разница в весе " + differenceWeightSecondWay);
         //Задача 8.
+        System.out.println("Задача 8");
         var amountHours = 640;
         var oneWorkerHours = 8;
         var amountWorkers = amountHours / oneWorkerHours;
